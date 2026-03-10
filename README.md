@@ -12,6 +12,8 @@ The FIFO is a design that uses gray-coded read and write pointers, to safely syn
 A two-stage synchronizer is implemented for each pointer to ensure metastability mitigation.
 See design-diagram: documents/gray_fifo_scheme.pdf.
 
+![design scheme](documents/Arch_scheme.jpg)
+
 ### Main Features
 - Separate read and write clock domains.
 - Synchronization registers for cross-domain communication.
@@ -25,6 +27,8 @@ documents/   → Diagrams and wave examples
 ## Verification Environment
 The verification is written in SystemVerilog using UVM methodology.
 See environment-diagram: documents/gray_fifo_ENV_scheme.pdf
+
+![env scheme](documents/Env_scheme.jpg)
 
 The testbench includes:
 - UVM components such as sequencer, driver, agent, interface etc.
