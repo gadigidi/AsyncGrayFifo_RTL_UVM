@@ -13,7 +13,7 @@ All simulation and verification for this project was developed and simulated on 
 The FIFO is a design that uses gray-coded read and write pointers, to safely synchronize data transfers between two clock domains.
 A two-stage synchronizer is implemented for each pointer to ensure metastability mitigation.
 
-See design-diagram: documents/gray_fifo_scheme.pdf.
+See full design diagram: [gray_fifo_scheme.pdf](documents/gray_fifo_scheme.pdf)
 
 ![design scheme](documents/Arch_scheme.jpg)
 
@@ -32,7 +32,7 @@ documents - Diagrams and wave examples
 ## Verification Environment
 The verification is written in SystemVerilog using UVM methodology.
 
-See environment-diagram: documents/gray_fifo_ENV_scheme.pdf
+See full environment-diagram: [gray_fifo_env_scheme.pdf](documents/gray_fifo_ENV_scheme.pdf)
 
 ![env scheme](documents/Env_scheme.jpg)
 
